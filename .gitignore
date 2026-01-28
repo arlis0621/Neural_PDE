@@ -1,0 +1,58 @@
+# Byte-compiled / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+env/
+.venv/
+.ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Data, models, checkpoints (large / generated files)
+/data/
+data/
+*.npz
+*.pt
+checkpoints/
+model/
+model.ckpt*
+*.ckpt
+*.pth
+*.h5
+
+# Logs, runtime files
+*.log
+logs/
+*.out
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+.pytest_cache/
+
+# Secrets / env
+.env
+*.key
+*.pem
+
+# Misc
+*.zip
+*.tar.gz
