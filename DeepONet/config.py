@@ -1,4 +1,4 @@
-# config.py -- tuned for a 12-core i5 + 16GB RAM (fast/cheap runs)
+
 import os
 import torch
 

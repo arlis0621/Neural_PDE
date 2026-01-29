@@ -38,11 +38,7 @@ class DeepONet(nn.Module):
             self.b0 = None
 
     def forward(self, u, y):
-        """
-        u: (B, m)
-        y: (B, 1)
-        returns: (B, 1)
-        """
+        
         b = self.branch(u)        # (B, p)
         t = self.trunk(y)         # (B, p)
         out = torch.sum(b * t, dim=1, keepdim=True)  # (B,1)

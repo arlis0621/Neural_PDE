@@ -2,7 +2,7 @@
 import numpy as np
 
 def rbf_kernel(x, y, length_scale=0.2):
-    """Compute RBF kernel matrix between vectors x (n,1) and y (m,1)."""
+   
     x = np.asarray(x).reshape(-1, 1)
     y = np.asarray(y).reshape(-1, 1)
     d2 = (x**2).sum(axis=1)[:, None] + (y**2).sum(axis=1)[None, :] - 2 * np.dot(x, y.T)
@@ -10,10 +10,7 @@ def rbf_kernel(x, y, length_scale=0.2):
 
 
 def cumtrapz(y, x):
-    """Cumulative trapezoidal integral of y w.r.t. x.
-    x assumed 1d ascending, y shape (N,) or (K,N) for K functions.
-    Returns array same length as x, with integral value at each x (first element 0).
-    """
+    
     x = np.asarray(x)
     y = np.asarray(y)
     dx = np.diff(x)
