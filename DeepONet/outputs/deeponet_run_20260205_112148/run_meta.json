@@ -1,0 +1,17 @@
+{
+  "artifact_dataset": "C:\\Users\\Aditya Raj\\Neural_PDE\\DeepONet\\artifacts\\antideriv_dataset.npz",
+  "deeponet_best_model": "C:\\Users\\Aditya Raj\\Neural_PDE\\DeepONet\\outputs\\deeponet_run_20260205_112148\\model\\deeponet_best.pth",
+  "deeponet_run_dir": "C:\\Users\\Aditya Raj\\Neural_PDE\\DeepONet\\outputs\\deeponet_run_20260205_112148",
+  "m": 100,
+  "dim_x": 1,
+  "p": 100,
+  "branch_hidden": [
+    128,
+    128
+  ],
+  "trunk_hidden": [
+    128,
+    128
+  ],
+  "device": "cpu"
+}
